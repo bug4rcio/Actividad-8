@@ -32,20 +32,26 @@ public class Ejercicio3 {
         
         if(conteoPos > 1){
             System.out.println("Se ingresaron "+conteoPos+" números positivos.");
-        } else{
+        } else if(conteoPos == 1){
             System.out.println("Se ingresó "+conteoPos+" número positivo.");
+        } else{
+            System.out.println("No se ingresaron números positivos");
         }
         
         if(conteoNeg > 1){
             System.out.println("Se ingresaron "+conteoNeg+" números negativos.");
-        } else{
+        } else if(conteoNeg == 1){
             System.out.println("Se ingresó "+conteoNeg+" número negativo.");
+        } else{
+            System.out.println("No se ingresaron números negativos");
         }
         
         if(conteoCeros > 1){
             System.out.println("Se ingresaron "+conteoCeros+" ceros.");
-        } else{
+        } else if(conteoCeros == 1){
             System.out.println("Se ingresó "+conteoCeros+" cero.");
+        } else{
+            System.out.println("No se ingresaron ceros.");
         }
     } 
 }
